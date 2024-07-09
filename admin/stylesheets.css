@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+} 
+
+
+.login{
+    background-color: rgb(90, 230, 230)  ;
+}
+
+.login-form{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    
+}
+
+.custom-alert{
+    position:fixed;
+    top:10px;
+    left:68%;
+    width: 30%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+} 
+
+.navbar-admin a:hover{
+    background-color:#efc8b1;
+    color: #000;
+}
+
+.navbar-admin {
+  overflow-y: scroll;
+  max-height: calc(100vh - 100px); /* set the maximum height of the container to fit the viewport minus 100px for the header */
+}
+
+.navbar-admin a{
+    color: #ffffff;
+}
+
+.admin-dash{
+    background-color:#FA8901;
+}
+
+.admin-navbar{
+    background-color: #af807a;
+}
+
+#dashboard{
+    position: fixed;
+    height: 100%;
+    z-index: 11;
+}
+
+ .setting-alert{
+    position:fixed;
+    top:-75rem;
+    left:72%;
+    width: 25%;
+}
+
+.custom-alert{
+    position:fixed;
+    top:80px;
+    left:77%;
+    width: 20%;
+}  
+
+
+
+
+
+
+ ::-webkit-scrollbar{
+    display: none;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #30110d;
+}
+
+::-webkit-scrollbar-track{
+    background: #d8d0cf;
+}  
+ 
+
+
+@media screen and (max-width:992px){
+    #dashboard{
+       height: auto;
+       width: 100%;
+    }
+
+    #main-content{
+        margin-top: 60px;
+    }
+    
+}
